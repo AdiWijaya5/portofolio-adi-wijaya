@@ -29,7 +29,6 @@ const navbar = () => {
           <div className="logo">
             <h1 className="text-xl font-bold sm:text-2xl">PORTOFOLIO</h1>
           </div>
-          <h1>test</h1>
           <ul
             className={`flex lg:gap-12 md:static md:flex-row md:shadow-none md:bg-transparent md:w-auto md:h-full md:translate-y-0 md:text-black md:p-0 md:m-0 md:transition-none gap-8 fixed z-10 ${menuActive}  top-1/2 -translate-y-1/2 flex-col px-8 py-6 rounded-r-lg shadow-lg shadow-slate-300 bg-sky-400 font-bold text-white transition-all`}
           >
