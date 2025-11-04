@@ -1,24 +1,21 @@
 const Footer = () => {
   return (
-    <div
-      className="relative bg-black text-white"
-      id="social"
-    >
+    <div className="relative text-white bg-black" id="social">
       <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
             <a>
-              <img
-                src="nm.png"
-                class="h-8 me-3"
-                alt="FlowBite Logo"
-              />
-              <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">PORTOFOLIO</span>
+              <img src="nm.png" class="h-8 me-3" alt="FlowBite Logo" />
+              <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+                PORTOFOLIO
+              </span>
             </a>
           </div>
 
           <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-white">Follow us</h2>
+            <h2 class="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-white">
+              Follow us
+            </h2>
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
               <li class="mb-4">
                 <a
@@ -29,17 +26,16 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a
-                  href="https://discord.gg/ali_ky_"
-                  class="hover:underline"
-                >
+                <a href="https://discord.gg/ali_ky_" class="hover:underline">
                   Discord
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-white">Sosial Media</h2>
+            <h2 class="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-white">
+              Sosial Media
+            </h2>
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
               <li class="mb-4">
                 <a
@@ -63,7 +59,7 @@ const Footer = () => {
       </div>
       <hr class="border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-3" />
       <div class="text-center text-sm p-3 ">
-        © 2024 Adi Wijaya
+        © {new Date().getFullYear()} Adi Wijaya
         <span class="text-reset fw-bold  text-gray-500  sm:text-center dark:text-gray-400">
           <a class="hover:underline"></a>. All Rights Reserved.
         </span>
